@@ -1,0 +1,55 @@
+body {
+    background-color: #323343;
+}
+.mLogo {
+    width: 100px;
+}
+.main {
+    width: 1400px;
+    margin: 0 auto;
+}
+.subMain {
+    background-color: transparent ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.catagoryMain {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.bgImage {
+    padding-inline: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    height: 700px;
+    background: url(../public/images/bgfood.jpg);
+    background-size: cover;
+}
+.itemView {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    margin: 50px 10px;
+    backdrop-filter: blur(8px) saturate(200%);
+    -webkit-backdrop-filter: blur(0px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.64);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.imgRadius {
+    margin: 10px 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.priceBtn {
+    background-color: red;
+    border: none;
+    margin-left: 118px;
+}
